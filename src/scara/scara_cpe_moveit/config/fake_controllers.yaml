@@ -1,8 +1,0 @@
-controller_list:
-  - name: fake_scara_cpe_group_controller
-    joints:
-      - shoulder_1_joint
-      - shoulder_2_joint
-initial:  # Define initial robot poses.
-  - group: scara_cpe_group
-    pose: straight
