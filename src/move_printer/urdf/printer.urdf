@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot name="printer">
+
+  <link name="base_link">
+    <visual>
+        <geometry>
+            <mesh filename="package://move_printer/urdf/printer.dae"/>
+        </geometry>
+        <origin rpy="-1.57 0 0" xyz="0 0 0.025"/>
+    </visual>
+    <collision>
+        <geometry>
+            <box size="0.25 0.25 0.01" length="0.056"/>
+        </geometry>
+        <!-- <origin rpy="-1.57 0 0" xyz="0 0 0.025"/> -->
+    </collision>
+  </link>
+
+  <link name='extruder_sublink1'/>
+
+  <joint name="base_link_to_extruder_sublink1" type="prismatic">
+    <parent link="base_link"/>
+    <child link="extruder_sublink1"/>
+    <origin rpy="0 0 0" xyz="0 0 0.35"/>
+    <axis xyz="1.0 0 0" />
+    <limit effort="30" velocity="0.1" lower="-0.125" upper="0.125"/>
+  </joint>
+
+  <link name='extruder_sublink2'/>
+
+  <joint name="base_link_to_extruder_sublink2" type="prismatic">
+    <parent link="extruder_sublink1"/>
+    <child link="extruder_sublink2"/>
+    <!-- <origin rpy="0 0 0" xyz="0 0 0.35"/> -->
+    <axis xyz="0 1.0 0" />
+    <limit effort="30" velocity="0.1" lower="-0.125" upper="0.125"/>
+  </joint>
+
+  <link name="extruder_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.02"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name = "blue">
+        <color rgba="0 0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="base_link_to_extruder_link" type="prismatic">
+    <parent link="extruder_sublink2"/>
+    <child link="extruder_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <axis xyz="0 0 1.0" />
+    <limit effort="30" velocity="0.1" lower="-0.324" upper="0.0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,2 @@
+set(local_planner_student_MESSAGE_FILES "/home/pierremoussa/catkin_ws/src/local_planner_student-master/msg/goalMsg.msg")
+set(local_planner_student_SERVICE_FILES "/home/pierremoussa/catkin_ws/src/local_planner_student-master/srv/localGoal.srv;/home/pierremoussa/catkin_ws/src/local_planner_student-master/srv/Path.srv")

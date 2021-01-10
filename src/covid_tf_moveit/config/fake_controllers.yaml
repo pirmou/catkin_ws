@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_human_group_controller
+    joints:
+      - right_shoulder_0
+      - right_shoulder_1
+      - right_shoulder_2
+      - right_elbow_0
+      - right_wrist_0
+      - right_wrist_1
+      - right_wrist_2
+initial:  # Define initial robot poses.
+#  - group: human_group
+#    pose: home

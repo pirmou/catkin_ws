@@ -1,0 +1,8 @@
+prefix=/home/pierremoussa/catkin_ws/install
+
+Name: navigation_stage_student_tp
+Description: Description of navigation_stage_student_tp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

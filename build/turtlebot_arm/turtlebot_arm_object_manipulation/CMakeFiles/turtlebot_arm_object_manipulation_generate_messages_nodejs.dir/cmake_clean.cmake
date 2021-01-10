@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlebot_arm_object_manipulation_generate_messages_nodejs"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandAction.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionAction.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipAction.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetAction.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetFeedback.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceAction.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/UserCommandResult.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionGoal.js"
+  "/home/pierremoussa/catkin_ws/devel/share/gennodejs/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionFeedback.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/turtlebot_arm_object_manipulation_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

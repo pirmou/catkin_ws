@@ -1,0 +1,8 @@
+prefix=/home/pierremoussa/catkin_ws/devel
+
+Name: mini_projet
+Description: Description of mini_projet
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

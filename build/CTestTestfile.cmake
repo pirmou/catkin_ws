@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/pierremoussa/catkin_ws/src
+# Build directory: /home/pierremoussa/catkin_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("bebop_autonomy/bebop_autonomy")
+subdirs("covid_tf_moveit")
+subdirs("dynamixel_motor/dynamixel_driver")
+subdirs("dynamixel_motor/dynamixel_motor")
+subdirs("dynamixel_motor/dynamixel_tutorials")
+subdirs("joystick_drivers/joystick_drivers")
+subdirs("dynamixel_motor/dynamixel_controllers")
+subdirs("move_printer_moveit")
+subdirs("scara_cpe_4students/scara_cpe_moveit")
+subdirs("bebop_autonomy/bebop_msgs")
+subdirs("bebop_autonomy/bebop_tools")
+subdirs("dynamixel_motor/dynamixel_msgs")
+subdirs("move_printer")
+subdirs("global_planner_short_path_student/navigation_stage_student_tp")
+subdirs("bebop_autonomy/bebop_description")
+subdirs("scara_cpe_4students/scara_cpe_apps")
+subdirs("scara_cpe_4students/scara_cpe_gazebo")
+subdirs("scara_cpe_4students/scara_cpe_kinematics")
+subdirs("scara_cpe_4students/scara_cpe_description")
+subdirs("scara_cpe_4students/scara_cpe_robot")
+subdirs("joystick_drivers/joy")
+subdirs("joystick_drivers/ps3joy")
+subdirs("joystick_drivers/spacenav_node")
+subdirs("covid_tf")
+subdirs("local_planner_student-master")
+subdirs("learning_tf2")
+subdirs("scara_cpe_4students/scara_cpe_ik_moveit_plugin")
+subdirs("joystick_drivers/wiimote")
+subdirs("bebop_autonomy/bebop_driver")

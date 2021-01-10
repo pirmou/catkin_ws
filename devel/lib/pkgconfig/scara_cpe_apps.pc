@@ -1,0 +1,8 @@
+prefix=/home/pierremoussa/catkin_ws/devel
+
+Name: scara_cpe_apps
+Description: Description of scara_cpe_apps
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

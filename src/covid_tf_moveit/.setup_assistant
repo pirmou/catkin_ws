@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: covid_tf
+    relative_path: urdf/old_person.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/old_person.srdf
+  CONFIG:
+    author_name: pierreMoussa
+    author_email: pierre.moussa@cpe.fr
+    generated_timestamp: 1610297046

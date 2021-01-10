@@ -1,0 +1,8 @@
+prefix=/home/pierremoussa/catkin_ws/devel
+
+Name: scara_cpe_scara_cpe_group_ikfast_plugin
+Description: Description of scara_cpe_scara_cpe_group_ikfast_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
